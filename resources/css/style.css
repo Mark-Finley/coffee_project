@@ -22,11 +22,10 @@
 
 /* nav-bar style */
 #nav-bar{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 15px;
     background-color: #f1f1f1;
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1rem;
+    font-weight: 100px;
 }
 
 #nav-bar ul{
@@ -47,7 +46,6 @@
     padding: 0px 16px;
     text-decoration: none;
     color: #333;
-    text-align: center;
 }
 
 #nav-bar li a:hover{
@@ -57,4 +55,37 @@
 #nav-bar li a.active{
     background-color: #4caf50;
     color: white;
+}
+
+/* table for numbers page */
+table{
+    border: 2px solid;
+}
+
+td, th{
+    width: 500px;
+    height: 50px;
+}
+
+/* Footer Style */
+footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p{
+    margin: 0px;
+    color: #666;
+}
+
+.footer_element{
+    text-align: right;
+}
+
+.footer_element a{
+    text-decoration: none;
+    color: #666;
+    font-weight: lighter;
+    text-transform: capitalize;
 }
