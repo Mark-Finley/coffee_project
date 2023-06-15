@@ -18,14 +18,7 @@
   </div>
 
   <!-- nav bar -->
-  <div id="nav-bar">
-    <ul>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="./numbers.html">Numbers</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./index.html">Home</a></li>
-    </ul>
-  </div>
+  <?php require('includes/nav.php') ?>
 
   <!-- hero image, background image -->
   <div class="background_image">
@@ -63,7 +56,7 @@
     consectetur!
   </p>
   <br />
-  <a href="https://en.wikipedia.org/wiki/Coffee" target="_blank">Details</a>
+  <a id="details" href="https://en.wikipedia.org/wiki/Coffee" target="_blank">Details</a>
   <br />
 
   <!-- Columbian roast -->
@@ -86,6 +79,8 @@
     <p>All Rights Reserved &copy;2023</p>
   </footer>
 
+  <script src="./resources/js/jquery-3.7.0.min.js"></script>
+  <script src="./resources/js/script.js"></script>
 </body>
 
 </html>

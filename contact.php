@@ -18,14 +18,7 @@
   </div>
 
   <!-- nav bar -->
-  <div id="nav-bar">
-    <ul>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="./numbers.html">Numbers</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./index.html">Home</a></li>
-    </ul>
-  </div>
+ <?php include('includes/nav.php') ?>
 
 
   <!-- hero image, background image -->
@@ -33,12 +26,12 @@
   <br>
   <h1>Contact</h1>
   <!-- form -->
-  <form action="#" method="get">
-    <label for="name">Name </label><input type="text"><br><br>
-    <label for="email">Email </label><input type="email"><br><br>
+  <form action="contactSubmit.php" method="POST">
+    <label for="name">Name </label><input type="text" name="name"><br><br>
+    <label for="email">Email </label><input type="email" name="email"><br><br>
     <label for="description">Description </label><br><br><textarea name="description" id="description" cols="30"
       rows="10" placeholder="Your description here"></textarea><br>
-    <input type="submit" value="submit here">
+    <input type="submit" name="submit" value="submit here">
   </form>
   <br><br><br><br><br><br>
 

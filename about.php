@@ -20,15 +20,7 @@
   </div>
 
   <!-- nav bar -->
-  <div id="nav-bar">
-    <ul>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="./numbers.html">Numbers</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./index.html">Home</a></li>
-    </ul>
-  </div>
-
+ <?php include('includes/nav.php') ?>
 
   <!-- hero image, background image -->
   <img src="./resources/images/background.jpeg" alt="coffe beans" width="100%">

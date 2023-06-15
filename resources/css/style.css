@@ -109,10 +109,34 @@ h2{
 }
 
 /* house blend coffee */
-/* .house_blend_coffee{
+.house_blend_coffee{
     border: #333 solid 2px;
-} */
+}
 
-/* .house_blend_coffee p{
-    
-} */
+.house_blend_coffee h3{
+    display: block;
+    text-align: center;
+}
+
+.house_blend_coffee p{
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.house_blend_coffee img{
+    display: block;
+    margin: 0 auto;
+}
+
+.house_blend_coffee a{
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.house_blend_coffee a:hover{
+    color: #333;
+    border: 2px solid #333;
+}
